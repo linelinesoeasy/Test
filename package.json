@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/linelinesoeasy/Test#readme",
   "devDependencies": {
+    "babel-eslint": "^9.0.0",
     "eslint": "^5.5.0"
   }
 }
