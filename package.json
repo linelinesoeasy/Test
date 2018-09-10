@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint app.js --cache --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,10 @@
   "homepage": "https://github.com/linelinesoeasy/Test#readme",
   "devDependencies": {
     "babel-eslint": "^9.0.0",
-    "eslint": "^5.5.0"
-  }
+    "eslint": "^5.5.0",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "lint"
+  ]
 }
